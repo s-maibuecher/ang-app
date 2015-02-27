@@ -1,0 +1,46 @@
+body{
+  padding: 0 10vw;
+  background-color: white;
+}
+
+.header{
+  background-color: black;
+  color: white;
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.header li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+.header li a, .header li a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+#contentDiv li {
+  height: 20vh;
+  border-bottom: 1px solid gray;
+  list-style: none;
+  color: red;
+}
+
+#contentDiv li:nth-child(odd){
+    background-color: grey;
+}
+
+#contentDiv {
+    height: 80vh;
+    overflow: auto;
+}
+
+.listspan{
+  font-size: 3vh;
+  color: black;
+ position: relative;
+ top: 30%;
+}

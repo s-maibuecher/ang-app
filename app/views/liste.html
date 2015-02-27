@@ -1,0 +1,8 @@
+<!--  CONTENT SEITE 2-->
+<h1>Seite 2</h1>
+
+<div id="contentDiv" scroll-reload="loadNewContent()">
+  <ul>
+    <li ng-repeat="x in daten">Listenelement Nr.{{x.id}}:<span class="listspan">{{x.response.data.time}} (GMT)</span></li>
+  </ul>
+</div>
